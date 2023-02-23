@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+}
+header {
+    background-image:  url("Photo\ Materials/Coffe\ Header.png");
+    background-size: cover;
+    border-radius:  5%;                                      
+}                                        
+ nav, ul,  .jumbotron: none; {
+    display: flex;
+}
+nav ul li {
+     list-style: none;
+}          
