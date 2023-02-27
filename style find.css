@@ -45,6 +45,7 @@ main p {
  line-height: 30px;
  width: 600px;
  margin-top: 20px;
+ margin-bottom: 20px;
 }
 .content {
     display: flex;
@@ -57,9 +58,13 @@ main p {
 
 .address, .pic {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    
 }
-
+.address img {
+    border-radius: 20px;
+    display: flex;
+}
  h1 {
     color: #0F8B8D;
     font-weight: bolder;
@@ -76,21 +81,26 @@ main {
     width: 470px;
     margin-top: 20px;
     margin-left: 70px;
+    font-size: 20px;
 }
 
 .box h2 {
     margin-top:  40px;
     margin-left: 70px;
+    font-size: 30px;
 }
 .address .box {
-    width: 600px;
-    height: 300px;
+    width: 550px;
+    height: 200px;
     border-radius: 20px;
     border: 1px solid rgb(194, 194, 194);
     margin: auto;
     flex-direction: column;
     column-gap: 20px;
     text-align: left;
+    color:#143642;
+    filter: drop-shadow(50px #b6b6b6c3);
+    
 }
 
  footer {
