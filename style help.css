@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: Lato;
 }
 
 nav {
@@ -17,15 +18,13 @@ nav {
 .logo img {
     position: absolute;
 }
-h1 {
-    font-family: Lato;
-}
+
 nav ul {
     display: flex;
     column-gap: 40px;
     align-items: center;
     font-family: Montserrat;
-    margin-left: 650px;
+    margin-left: 780px;
  }
  
 li {
@@ -33,56 +32,105 @@ li {
     font-size: 20px;
  }
 
-body {
- 
-}
-main {
+ main {
     padding: 100px 257px;
+    justify-content: center;
 }
 h1 {
-width: 390px;
+width: 910px;
 height: 58px;
-left: 257px;
-top: 245px;
 font-family:  'Lato';
-font-size: 48px;
+font-size: 50px;
 color: #0F8B8D;
+margin: auto;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+margin-bottom: 50px;
 }
-
-.box {
-    margin-top:  25px;
-    box-sizing: border-box;
-    height: 550px;
-    background: #FFFFFF;
+.Contact {
     border: 2px solid #D2D2D2;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    row-gap: 15px;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 910px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     border-radius: 20px;
-}
+ }
 
-form {
-    margin: 50px 100px;
+.form {
+    display: flex;
+ }
+
+ .form h2 {
+    width: 245px;
+    color: #143642;
+ }
+
+ input, textarea {
+    border-radius: 20px;
+    border: 2px solid #D2D2D2;
     font-family: Lato;
+    font-size: 24px;
+    width: 500px;
+    height: 70px;
+    padding: 10px 30px;
+ }
+
+ textarea {
+    resize: vertical;
+    min-height: 200px;
+ }
+.submit {
+    background-color: #A8201A;
+    color: white;
+    border: none;
+    width: 216px;
+    height: 70px;
+}
+footer {
+    background-color:#143642;
+    color: white;
+    padding: 80px 140px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    column-gap: 150px;
+    width: auto;
+    justify-content: center;
+    font-size: 23px;
+ }
+ .icon-svg {
+    filter: invert(100%)
+    }
+
+.products {
+    text-align: left;
+    padding: 0px;
+}
+h4 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+footer section {
+    color: #EC9A29;
+}
+footer p {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 400;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #A8201A;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  border-radius: 55px;
-}
 
 
 

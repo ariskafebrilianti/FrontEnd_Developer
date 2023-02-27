@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+nav {
+    background-color: #0F8B8D;
+    color: white;
+    padding: 40px 80px;
+    display: flex;
+    width: auto;
+    height: 145px;
+    margin: 0px;
+    border-radius: 20px 20px  0px 0px;
+    justify-content: center;
+}   
+.logo img {
+    position: absolute;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    font-family: Montserrat;
+    margin-left: 780px;
+ }
+ 
+li {
+    list-style: none;
+    font-size: 20px;
+ }
+ main {
+    padding: 0px 245px;
+    margin-bottom: 100px;
+ }
+h3 {
+    color: #0F8B8D;
+    font-size: 45px;
+}
+.jumbotron {
+    color:#0F8B8D;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+.jumbotron .text {
+    padding-top: 70px;
+}
+.jumbotron p {
+    color:#143642;
+    text-align: justify;
+    margin: 30px 0;
+    font-size: 24px;
+}
+.card {
+    display: flex;
+}
+.pic {
+    transform: scale(1.2);
+    object-fit: fill;
+    margin-top: 30px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+main p {
+    font-size: 24px;
+    color:#143642;
+    width: 920px;
+    margin-top: 20px;
+}
+.underline {
+    background-color:#EC9A29;
+    height: 5px;
+    width: 381px;
+    margin-top: 20px;
+
+}
+button {
+    background-color: #A8201A;
+    border: none;
+    border-radius: 55px;
+    width: 335px;
+    height:  70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+button img {
+    filter:invert(100%);
+    transform:  rotate(180deg);
+    margin: 0px;
+}
+button p {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+footer {
+    background-color:#143642;
+    color: white;
+    padding: 80px 140px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    column-gap: 150px;
+    width: auto;
+    justify-content: center;
+    font-size: 23px;
+ }
+ .icon-svg {
+    filter: invert(100%)
+    }
+
+.products {
+    text-align: left;
+    padding: 0px;
+}
+h4 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+footer section {
+    color: #EC9A29;
+}
+footer p {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
