@@ -30,6 +30,8 @@ nav ul {
 li {
     list-style: none;
     font-size: 30px;
+    color: white;
+    text-decoration: none;
  }
 
 header nav, header .jumbotron {

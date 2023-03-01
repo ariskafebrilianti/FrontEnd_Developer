@@ -56,15 +56,7 @@ main p {
     row-gap: 20px;
 }
 
-.address, .pic {
-    display: flex;
-    flex-direction: column;
-    
-}
-.address img {
-    border-radius: 20px;
-    display: flex;
-}
+
  h1 {
     color: #0F8B8D;
     font-weight: bolder;
@@ -95,7 +87,7 @@ main {
     border-radius: 20px;
     border: 1px solid rgb(194, 194, 194);
     margin: auto;
-    flex-direction: column;
+  
     column-gap: 20px;
     text-align: left;
     color:#143642;
