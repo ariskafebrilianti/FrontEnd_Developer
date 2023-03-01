@@ -3,7 +3,6 @@
     box-sizing: border-box;
     font-family: Lato;
 }
-
 nav {
     background-color: #0F8B8D;
     color: white;
@@ -56,10 +55,10 @@ main p {
 }
 .content1, .content2 {
     display: flex;
-
 }
-
-
+.card {
+    row-gap: 40px;
+}
 .cover-image {
     width: 216px;
     height: 216px;
