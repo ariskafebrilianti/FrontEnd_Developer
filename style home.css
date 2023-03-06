@@ -71,12 +71,12 @@ main {
 .who, .showcase, .hangout {
     display: flex;
 }
-.line {
-    background-color: #EC9A29;
-    height: 5px;
-    margin-top: 22px;
+.text h1 {
+    border-bottom: 5px solid #EC9A29;
     margin-bottom: 22px;
+
 }
+
 button {
     background-color: #A8201A;
     color: white;
@@ -99,18 +99,14 @@ button {
     margin-left: 100px;
     line-height: 30px;
 }
-.who .line {
-    width: 278px;
-}
+
 .showcase img {
     border-radius: 20px;
     width: 335px;
     height: 335px;
     object-fit: cover;
 }
-.showcase .line {
-    width: 399px;
-}
+
 .showcase .text {
     margin-right: 20px;
 } 
@@ -123,13 +119,12 @@ button {
 .hangout .text {
     margin-left: 133px;
 }
-.hangout .line {
-    width: 381px;
-}
+
 main h1 {
     font-size: 48px;
     font-weight: bold;
     color: #0F8B8D;
+    padding-bottom: 22px;
 }
 
 section p {
@@ -170,6 +165,7 @@ p {
 }
 span {
     color: #EC9A29;
+    border-bottom: 3px solid #EC9A29;
 }
 .row {
     justify-content: space-between;
