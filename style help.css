@@ -27,10 +27,20 @@ nav ul {
     margin-left: 780px;
  }
  
-li {
+ li {
     list-style: none;
-    font-size: 20px;
+    font-size: 25px;
+    padding-bottom: 5px;
  }
+ a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+ li.active, li:hover {
+    border-bottom: 3px solid #EC9A29;
+ }
+
 
  main {
     padding: 100px 257px;
@@ -125,11 +135,18 @@ h4 {
 footer section {
     color: #EC9A29;
 }
-footer p {
+p {
     color: white;
     margin-bottom: 20px;
     font-weight: 400;
 }
+.products p {
+    width:150px;
+}
+.contact p {
+    width: 200px;
+}
+    
 
 
 

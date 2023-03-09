@@ -26,19 +26,19 @@ nav ul {
     margin-left: 780px;
  }
  
-li {
+ li {
     list-style: none;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+    font-size: 25px;
     padding-bottom: 5px;
  }
-
- li.active {
+ a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+ li.active, li:hover {
     border-bottom: 3px solid #EC9A29;
  }
-
 
 main{
     padding: 100px 200px;
@@ -69,7 +69,7 @@ main p {
     padding-top: 50px;
 }
 
-.content1 .card, .content2 .card {
+.card1, .card2, .card3, .card4, .card5, .card6  {
     background-image: url(Photo\ Materials/Coffee\ background.png);
     height: 250px;
     aspect-ratio: 1;
@@ -78,31 +78,33 @@ main p {
 
 }
 
-.card {
+.card1, .card2, .card3, .card4, .card5, .card6  {
     row-gap: 40px;
     color: white; 
     font-family: Lato;
     font-size: 20px;
 }
 
-.card p {
+.card1 p , .card2 p , .card3 p ,
+.card4 p, .card5 p, .card6 p {
     color: white;
     font-size: 18px;
     margin-top: 5px;
 }
-.content1:hover .details, 
-.content2:hover .details {
+.card1:hover .details, .card2:hover .details, .card3:hover .details, 
+.card4:hover .details, .card5:hover .details, .card6:hover .details{
     padding-top: 0px;
     transform: translate3d(0%, 180px, 100px);
 }
-.card .pic {
+
+.card1 .pic, .card2 .pic, .card3 .pic,
+.card4 .pic, .card5 .pic, .card6 .pic {
     margin-top: -40px;
     transition: all 0.3s;
-
 }
 
-.content1:hover .pic, 
-.content2:hover .pic {
+.card1:hover .pic, .card2:hover .pic, .card3:hover .pic,
+.card4:hover .pic, .card5:hover .pic, .card6:hover .pic  {
     opacity: 1;
     width: 100%;
     transform: translate3d(0%, -10%, 200px);

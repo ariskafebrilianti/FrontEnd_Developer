@@ -27,11 +27,18 @@ nav ul {
     margin-left: 780px;
  }
  
-li {
+ li {
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
+    padding-bottom: 5px;
+ }
+ a:-webkit-any-link {
     color: white;
+    cursor: pointer;
     text-decoration: none;
+}
+ li.active, li:hover {
+    border-bottom: 3px solid #EC9A29;
  }
 
 header nav, header .jumbotron {
@@ -63,7 +70,7 @@ header .jumbotron  {
     font-size: 36px;
 }
 main {
-    padding: 125px 260px;
+    padding: 125px 180px;
     display: flex;
     flex-direction: column;
     row-gap: 100px;
@@ -73,8 +80,13 @@ main {
 }
 .text h1 {
     border-bottom: 5px solid #EC9A29;
+    width: fit-content;
     margin-bottom: 22px;
-
+}
+section p:not(footer section p){
+    color: #143642;
+    font-size: 24px;
+    width: 457px;
 }
 
 button {
@@ -109,6 +121,7 @@ button {
 
 .showcase .text {
     margin-right: 20px;
+    padding-right: 110px;
 } 
 .hangout img {
     height: 453px;
@@ -121,48 +134,12 @@ button {
 }
 
 main h1 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
     color: #0F8B8D;
     padding-bottom: 22px;
 }
-
-section p {
-    color: #143642;
-    font-size: 24px;
-}
- footer {
-    background-color:#143642;
-    color: white;
-    padding: 80px 140px;
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    column-gap: 150px;
-    width: auto;
-    justify-content: center;
-    font-size: 23px;
- }
- .icon-svg {
-    filter: invert(100%)
-    }
-
-.products {
-    text-align: left;
-    padding: 0px;
-}
-h4 {
-    margin-bottom: 20px;
-    font-weight: 700;
-}
-footer section {
-    color: #EC9A29;
-}
-p {
-    color: white;
-    margin-bottom: 20px;
-    font-weight: 400;
-}
+ 
 span {
     color: #EC9A29;
     border-bottom: 3px solid #EC9A29;
@@ -218,6 +195,7 @@ footer {
 .products {
     text-align: left;
     padding: 0px;
+
 }
 h4 {
     margin-bottom: 20px;
@@ -226,8 +204,15 @@ h4 {
 footer section {
     color: #EC9A29;
 }
-footer p {
+footer section p {
     color: white;
     margin-bottom: 20px;
     font-weight: 400;
 }
+.products p {
+    width:150px;
+}
+.contact p {
+    width: 200px;
+}
+

@@ -27,9 +27,18 @@ nav ul {
     margin-left: 780px;
  }
  
-li {
+ li {
     list-style: none;
-    font-size: 20px;
+    font-size: 25px;
+    padding-bottom: 5px;
+ }
+ a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+ li.active, li:hover {
+    border-bottom: 3px solid #EC9A29;
  }
 
 main {
@@ -64,37 +73,37 @@ main p {
 }
 main {
     row-gap: 20px;
-    padding: 100px 0;
+    padding: 80px 0;
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .box p {
     width: 470px;
-    margin-top: 20px;
-    margin-left: 70px;
+    margin-top: 10px;
+    margin-left: 35px;
     font-size: 20px;
 }
 
 .box h2 {
-    margin-top:  40px;
-    margin-left: 70px;
+    margin-top:  25px;
+    margin-left: 35px;
     font-size: 30px;
 }
+.pic img {
+    margin-left: 30px;
+    border-radius: 20px;
+}
 .address .box {
-    width: 550px;
-    height: 200px;
+    width: 500px;
+    height: 180px;
     border-radius: 20px;
     border: 1px solid rgb(194, 194, 194);
-    margin: auto;
-  
+    margin-bottom: 20px;
     column-gap: 20px;
     text-align: left;
     color:#143642;
-    filter: drop-shadow(50px #b6b6b6c3);
-    
 }
-
  footer {
     background-color:#143642;
     padding: 80px 140px;
@@ -125,6 +134,11 @@ p {
     color: white;
     margin-bottom: 20px;
     font-weight: 400;
-    width: 150px;
+}
+.products p {
+    width:150px;
+}
+.contact p {
+    width: 200px;
 }
     
